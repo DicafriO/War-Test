@@ -8,7 +8,7 @@ public class HomeController{
 
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("message", "Test Success!!");
+        model.addAttribute("message", "Test Success222222!!");
         return "index";
     }
 }
